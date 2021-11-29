@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h1 { font-size: 50px; }
+a { color: white; text-decoration: none; }
+a:hover { color: #333; text-decoration: none; }
+ul {
+  list-style-type: none;
+}
+.intro {
+  font-family: 'VT323', monospace;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.nav__item {
+  display: inline;
+  float: left;
+  padding-right: 2%;
+}
+.section__intro__social__item {
+  display: inline;
+  padding-right: 2%;
+}
+
+.intro {
+  padding-top: 5%;
+}
+
+.intro__photo {
+  object-fit: cover;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.notion {
+  width: 1rem;
+  height: 1rem;
+}

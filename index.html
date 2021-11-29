@@ -1,1 +1,77 @@
+  <!--  =======================
+        Author: Andrey Skibenko
+  
+  
+        =======================  -->
 
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>ansk.be</title>
+        <meta charset="utf-8"/>
+        <meta name="robots" content="noindex"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="theme-color" content="#000000" />
+
+        <link rel="shortcut icon" href="./assets/img/favicon.png">
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css">
+
+
+      </head>
+      <body>
+
+        <header>
+            
+            
+            <nav class="nav">
+                
+                <ul class="nav__list">
+                    <li class="nav__item nav__logo">
+                        <img class="logo nav-toggle" src="./assets/svg/logo_main.svg" alt="ansk.be" aria-label="toggle navigation">
+                    </li>
+                    <!--
+                    <li class="nav__item"><a class="nav__link" href="#"><i class="fas fa-home"></i></a></li>
+                    <li class="nav__item"><a class="nav__link" href="#"><i class="fas fa-info-circle"></i></a></li>
+                    <li class="nav__item"><a class="nav__link" href="#"><i class="fas fa-comments"></i></a></li>
+                    -->
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <img class="intro__photo" src="./assets/img/main_photo.jpg">
+            <h1 class="section__title section__intro">
+                I'm <span class="typed"></span>
+            </h1>
+            <p class="">GET IN TOUCH WITH ME</p>
+            <ul class="section__intro__social__list">
+                <li class="section__intro__social__item"><a href="https://t.me/anskibenko"><i class="fab fa-telegram"></i></a></li>
+                <li class="section__intro__social__item"><a href="https://www.linkedin.com/in/anskibenko"><i class="fab fa-linkedin"></i></a></li>
+                <li class="section__intro__social__item"><a href="https://github.com/anskibenko"><i class="fab fa-github"></i></a></li>
+                <li class="section__intro__social__item"><a href="https://anskibenko.notion.site/"><img class="notion svg-in-font" src="./assets/svg/notion_logo.svg"></a></li>
+        </section>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <script>
+            // typed.js config
+
+            var options = {
+                strings: ['Andrey Skibenko', 'software testing engeneer'],
+                typeSpeed: 70,
+                backSpeed: 30,
+                backDelay: 2000,
+                loop: true
+            };
+
+            var typed = new Typed('.typed', options);
+        </script>
+
+
+      </body>
+</html>
